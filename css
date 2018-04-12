@@ -1,0 +1,46 @@
+html {
+  font-size: 2vmin;
+}
+
+
+body {
+background-color: #FFF;
+}
+
+h1 {
+background-image: url("uthyrningsbilder/område/solnedgång.jpg");
+background-size: cover;
+background-position: center;
+font-family: cursive;
+font-size: 300%;
+text-align: center;
+padding-top: 10%;
+padding-bottom: 20%;
+
+}
+
+p {
+font-size: 110%;
+text-align: center;
+}
+
+h2 {
+  font-size: 150%;
+  font-family: cursive;
+  text-align: center;
+}
+img {
+padding: 10px;
+width: 48%;
+height: 48%;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media screen and (max-width: 1110px) {
+  img {
+  width: 98%;
+  height: 49%;
+  }
+
+}
